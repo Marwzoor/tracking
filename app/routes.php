@@ -25,23 +25,6 @@ Route::post('/track', function() {
 
 Route::get('/', function()
 {
-    ?>
-
-    <script>
-        function cb() {
-            GT.tr("UPJZBBwh6b");
-        }
-
-        var ts = document.createElement("script");
-        ts.type = "text/javascript";
-        ts.src = "//tr.thegeneration.se/tr.js";
-        ts.onreadystatechange = cb;
-        ts.onload = cb;
-        document.getElementsByTagName('head')[0].appendChild(ts);
-    </script>
-
-    <?php
-
     return;
 
     $dToExt = array(
