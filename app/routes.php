@@ -23,7 +23,7 @@ Route::post('/track', function() {
     $track->save();
 });
 
-Route::get('/', function()
+Route::get('/{ip}', function($ip)
 {
     return;
 
